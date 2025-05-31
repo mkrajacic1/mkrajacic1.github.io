@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.navigacija {
+    background-color: #91C4F2;
+    padding: 15px 0;
+}
+
+.navigacija img {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: font-size 0.5s ease;
+}
+
+a:hover {
+    font-size: 20px;
+    color: #304D6D;
+}
+
+.sredina {
+    padding: 15px 0 0 0;
+    text-align: center;
+}
+
+.logotip {
+    width: 50px;
+}
+
+.centar {
+    text-align: center;
+}
+
+.box {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: #91C4F2;
+    padding: 15px 0;
+}
+
+select {
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.newsletter-glavno {
+    border-top: 2px solid #91C4F2;
+    border-bottom: 2px solid #91C4F2;
+    background-color: #f8f9fa;
+}
+
+.newsletter-naslov{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.newsletter-opis {
+    font-size: 18px;
+    color: #555;
+}
+
+.more-btn {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.more-btn:hover {
+    background-color: #91C4F2;
+    color: white;
+}
+.subscribe-btn {
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.subscribe-btn:hover {
+    background-color: #304D6D;
+    transform: scale(1.05);
+}
