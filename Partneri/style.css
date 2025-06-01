@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.navigacija{
+    background-color: #91C4F2;
+    padding: 15px 0;
+}
+
+.navigacija img{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transition: font-size 0.5s ease;
+}
+
+a:hover{
+    font-size: 20px;
+    color: #304D6D;
+}
+
+.sredina{
+    padding: 15px 0 0 0;
+    text-align: center;
+}
+
+.logotip{
+    width: 50px;
+}
+
+.sponzori{
+    margin: 20px 0;
+    font-weight: bold;
+    font-size: 55px;
+    text-decoration: underline #304D6D;
+}
+
+.naziv{
+    margin: 20px 0;
+    font-weight: bold;
+    text-decoration: underline #304D6D;
+}
+
+.razmak{
+    margin: 50px 0;
+}
+
+.centar{
+    text-align: center;
+}
+
+.firme-logo{
+    width: 100%;
+    height: 250px;
+}
+
+article{
+    padding: 10px 10px;
+    border-color: #444444;
+    border-radius: 10px;
+    box-shadow: 4px 4px 12px rgba(144, 144, 145, 0.4);
+}
+
+.box {
+    height: 100%;
+    display: flex;
+    justify-content: center; /* horizontalno centriranje */
+    align-items: center;     /* vertikalno centriranje */
+}
+
+.footer{
+    background-color: #91C4F2;
+    padding: 15px 0;
+}
+
+
+
